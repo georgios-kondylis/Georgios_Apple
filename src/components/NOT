@@ -1,0 +1,8 @@
+<ul className='color-container'>
+                {modelScale.map((item, i) => (
+                  <li key={i} className='w-6 h-6 rounded-full mx-2' style={{
+                    backgroundColor: item.color[0]
+                  }}
+                  onClick={() => setModel(item)}/>
+                ))}
+              </ul>
